@@ -6,12 +6,12 @@ To use:
 
 1. Install cookiecutter:
 
-    pip install cookiecutter
+        pip install cookiecutter
 
 2. Download this repo
 3. Run the following pointing to the location of the downloaded repo:
 
-    cookicutter munibot_template
+        cookiecutter munibot_template
 
 4. Enter the prompted data
 
