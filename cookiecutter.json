@@ -1,0 +1,8 @@
+{
+    "bot_name": "A human-readable name for your bot (eg US Counties Bot) ",
+    "admin_divisions": "A human-readable name of the regions handled (eg French communes)", 
+    "package_name": "Name of the Python package and SQLite db (eg communebot_fr)",
+    "pip_name": "{{cookiecutter.package_name.replace('_', '-')}}",
+    "bot_id": "Unique identifier for the profile (eg fr, cat, us...)",
+    "class_name": "{{ cookiecutter.package_name.title().replace('_','') }}"
+}
